@@ -1,0 +1,36 @@
+.place__title {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+
+}
+
+@media screen and (max-width: 768px) {
+    .place__title {
+        max-width: 333px;
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+
+@media screen and (max-width: 690px) {
+    .place__title {
+        width: calc(100% - 32px);
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__title {
+        padding-left: 16px;
+    }
+}

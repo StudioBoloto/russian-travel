@@ -1,0 +1,18 @@
+.footer__copyright {
+    padding: 0;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    color: #FFFFFF;
+    display: flex;
+}
+
+@media screen and (max-width: 760px) {
+    .footer__copyright {
+        text-align: left;
+    }
+}
+
