@@ -1,15 +1,23 @@
 .cover {
     margin: 0 auto;
-    padding: 0 0 calc((100% - 96px) / 1.6 + 92px);
+    padding: 0 0 92px;
     width: calc(100% - 96px);
-    display: flex;
-    flex-direction: column;
-
 }
 
 @media screen and (max-width: 1024px) {
     .cover {
         width: 100%;
-        padding: 0 0 calc(100% / 1.6 + 92px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        padding-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .cover {
+        padding-bottom: 64px;
     }
 }

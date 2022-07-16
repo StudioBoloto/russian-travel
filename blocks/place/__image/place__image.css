@@ -1,4 +1,4 @@
-.place__image > img {
+.place__image {
     object-fit: cover;
     width: 460px;
     max-height: 100%;
@@ -8,19 +8,20 @@
 
 
 @media screen and (max-width: 1024px) {
-    .place__image > img {
+    .place__image {
         width: 440px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .place__image > img {
+    .place__image {
         max-width: 340px;
     }
 }
 
-@media screen and (max-width: 320px) {
-    .place__image > img {
+@media screen and (max-width: 390px) {
+    .place__image {
+        max-width: 100%;
         width: 100%;
     }
 }
