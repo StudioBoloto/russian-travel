@@ -24,6 +24,13 @@
 }
 
 
+@media screen and (max-width: 690px) {
+    .places {
+        width: calc(100% - 32px);
+    }
+}
+
+
 @media screen and (max-width: 390px) {
     .places {
         width: 100%;
