@@ -3,6 +3,6 @@
     padding: 0;
 }
 
-.header__links-item:nth-child(2) {
+.header__links-item:last-child {
     margin-right: 0;
 }
