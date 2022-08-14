@@ -6,7 +6,7 @@
     column-gap: 16px;
     max-width: 1184px;
     margin: 0 auto;
-    padding: 0 0 92px;
+    padding: 0 0 12px;
 }
 
 @media screen and (max-width: 1280px) {
@@ -29,7 +29,7 @@
         width: calc(100% - 48px);
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);
-        padding-bottom: 88px;
+        padding-bottom: 15px;
     }
 }
 
@@ -39,6 +39,6 @@
         width: calc(100% - 32px);
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(12, 1fr);
-        padding-bottom: 64px;
+        row-gap: 12px;
     }
 }

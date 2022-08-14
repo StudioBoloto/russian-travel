@@ -4,21 +4,23 @@
     row-gap: 48px;
     column-gap: 40px;
     margin: 0;
-    padding: 0 0 92px 0;
+    padding: 0;
 }
 
 
 @media screen and (max-width: 1024px) {
     .place {
         column-gap: 32px;
+        padding-top: 80px;
     }
+
 }
 
 
 @media screen and (max-width: 768px) {
     .place {
         column-gap: 28px;
-        padding-bottom: 90px;
+        padding-top: 73px;
     }
 }
 
@@ -28,6 +30,13 @@
         display: flex;
         flex-direction: column;
         row-gap: 32px;
-        padding-bottom: 66px;
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        padding: 0;
+        margin-bottom: 50px;
     }
 }
