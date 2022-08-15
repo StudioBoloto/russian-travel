@@ -7,7 +7,7 @@
     color: #FFFFFF;
     margin-top: 0;
     margin-bottom: 26px;
-    width: 484px;
+    max-width: 484px;
 }
 
 .place__paragraph:last-child {
@@ -17,7 +17,7 @@
 @media screen and (max-width: 1024px) {
     .place__paragraph {
         margin-bottom: 27px;
-        width: 456px;
+        max-width: 456px;
     }
 }
 
